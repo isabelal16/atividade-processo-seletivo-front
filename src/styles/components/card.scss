@@ -1,0 +1,32 @@
+ .card {
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     width: 250px;
+     margin: 20px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+     &:hover {
+         transform: translateY(-10px);
+         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+     }
+
+     .icon {
+         font-size: 40px;
+         color: #CC2D31;
+         /* Cor do ícone */
+         margin-bottom: 15px;
+     }
+
+     .text {
+         font-size: 16px;
+         color: #333;
+         margin-bottom: 20px;
+     }
+
+     .button {
+         display: inline-block;
+     }
+ }
