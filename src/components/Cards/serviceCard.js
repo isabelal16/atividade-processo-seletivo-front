@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../Buttons/Button'; // Importando o componente de botão
-import '../../../src/styles/components/card.scss'; // Estilos para o Card
+import '../../styles/components/card.scss'
 
 const Card = ({ icon, text, buttonLink, buttonText }) => {
     return (

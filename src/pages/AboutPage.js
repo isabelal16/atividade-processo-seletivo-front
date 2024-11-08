@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/pages/about.scss'; // Estilos para a seção sobre
-// import SobreImage from '../assets/sobre-imagem.jpg'; // Substitua pelo caminho da sua imagem
-
+import SobreImage from '../assets/aboutImage.jpg';
 const Sobre = () => {
     return (
         <section id="sobre" className="sobre">
@@ -9,13 +8,13 @@ const Sobre = () => {
                 <div className="content">
                     <h2>Sobre nós</h2>
                     <p>
-                        Somos uma equipe dedicada ao bem-estar e cuidado do seu pet. Oferecemos serviços de
-                        alta qualidade, focados no conforto e na segurança do seu amigo de quatro patas.
-                        Nosso objetivo é proporcionar uma experiência única para o seu pet e para você.
+                        Somos uma equipe dedicada ao bem-estar e cuidado do seu pet, sempre buscando oferecer o melhor em qualidade e atenção para nossos clientes de quatro patas. Sabemos que cada pet é único e merece um atendimento especial, por isso, nossos serviços são pensados para garantir conforto, segurança e alegria para o seu amigo.
+
+                        Nossa missão é proporcionar uma experiência de cuidado que vá além do básico, sempre com carinho e respeito. Seja no banho e tosa, hospedagem ou transporte, temos uma equipe qualificada e apaixonada pelo que faz, pronta para atender às necessidades do seu pet com o máximo de dedicação.
                     </p>
                 </div>
                 <div className="image">
-                    <img src="https://via.placeholder.com/600" alt="about" />
+                    <img src={SobreImage} alt="about" />
                 </div>
             </div>
         </section>

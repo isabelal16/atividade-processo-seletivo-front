@@ -4,7 +4,7 @@
     display: inline-block;
     padding: 12px 20px;
     background-color: $primary-color;
-    color: white;
+    color: $on-primary;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -13,10 +13,11 @@
     border: none;
 
     &:hover {
-        background-color: #D6D8D5;
+        background-color: $secondary-color;
+        cursor: pointer;
     }
 
     &:active {
-        background-color: darken(#CC2D31, 10%);
+        background-color: darken($secondary-color, 10%);
     }
 }

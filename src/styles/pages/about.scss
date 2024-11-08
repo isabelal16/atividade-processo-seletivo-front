@@ -1,8 +1,9 @@
+@import "../variables.scss";
+
 .sobre {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f9f9f9; // Cor de fundo
     padding: 60px 20px;
 }
 
@@ -14,8 +15,6 @@
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: white;
 }
 
 .content {
@@ -25,7 +24,7 @@
     h2 {
         font-size: 28px;
         font-weight: bold;
-        color: #CC2D31; // Cor do título
+        color: $primary-color; // Cor do título
         margin-bottom: 20px;
     }
 
@@ -37,14 +36,17 @@
 }
 
 .image {
-    flex: 0 0 45%;
     display: flex;
     justify-content: center;
     align-items: center;
+    object-fit: cover;
+    background-size: cover;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
 
     img {
         width: 100%;
-        max-width: 400px;
+        max-width: 500px;
         height: auto;
         border-radius: 10px;
         object-fit: cover;
@@ -55,14 +57,13 @@
     .sobre-container {
         flex-direction: column;
         text-align: center;
+        margin-top: -20%;
     }
 
     .content,
-    .image {
-        flex: 1 1 100%;
-    }
+    .image {}
 
     .image img {
-        max-width: 80%;
+        margin-top: 20px;
     }
 }

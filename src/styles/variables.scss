@@ -1,3 +1,27 @@
-$primary-color: #631b1b; // Vermelho
-$secondary-color: #D6D8D5; // Cinza Claro
-$accent-color: #F2B34A;
+// Base color
+$primary-color: #631b1b;
+$secondary-color: #a06000;
+$on-primary:white;
+// Lighter shades
+$primary-lightest: #f0dada;
+$primary-lighter: #d9a3a3;
+$primary-light: #b66b6b;
+
+// Darker shades
+$primary-dark: #4d1414;
+$primary-darker: #380e0e;
+$primary-darkest: #260808;
+
+// Accent colors (variantes para botões ou detalhes)
+$accent-light: #a94444;
+$accent-dark: #7e1e1e;
+
+// Neutrals (para contrastes e equilíbrio)
+$neutral-light: #f4f4f4; // Usado para fundos e áreas de respiro
+$neutral-medium: #d6d8d5; // Usado para bordas e divisores
+$neutral-dark: #3a3a3a; // Para texto escuro em fundos claros
+
+// Opacity variations
+$primary-opacity-80: rgba($primary-color, 0.8);
+$primary-opacity-60: rgba($primary-color, 0.6);
+$primary-opacity-40: rgba($primary-color, 0.4);
