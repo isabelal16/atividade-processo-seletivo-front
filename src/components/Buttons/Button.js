@@ -3,9 +3,9 @@ import '../../../src/styles/components/button.scss'; // Se quiser adicionar um e
 
 const Button = ({ link, text }) => {
     return (
-        <button href={link} className="button" target="_blank">
+        <a href={link} className="button" target="_blank">
             {text}
-        </button>
+        </a>
     );
 };
 

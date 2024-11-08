@@ -13,19 +13,19 @@ const ServicePage = () => {
                     <Card
                         icon={<FaDog />}
                         text="Clínica Veterinária"
-                        buttonLink="/servicos"
+                        buttonLink="/clinica-vet"
                         buttonText="Ver mais"
                     />
                     <Card
                         icon={<FaBriefcaseMedical />}
                         text="Fármarcia"
-                        buttonLink="/hotelzinho"
+                        buttonLink="/farmacia"
                         buttonText="Ver Mais"
                     />
                     <Card
                         icon={<FaXRay />}
                         text="Raio-X"
-                        buttonLink="/hotelzinho"
+                        buttonLink="/raio-x"
                         buttonText="Ver Mais"
                     />
                 </div>
