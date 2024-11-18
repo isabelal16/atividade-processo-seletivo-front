@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/header.scss'; // Importando o arquivo SCSS
-import Logo from "../../src/assets/logo.png"
+import Logo from "../../src/assets/logo-clinicavida.webp"
 import { Link } from 'react-scroll'; // Usando react-scroll para navegação suave entre seções
-
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 

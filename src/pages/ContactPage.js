@@ -12,11 +12,14 @@ const ContactSection = () => {
                     title="Endereço"
                     icon={<FaMapMarkerAlt />}
                     text="Av. Elias Yazbek, 606 - Quinhau, <br>Embu das Artes - SP, 06803-000"
+                    link="https://maps.app.goo.gl/cDskAwJefge4HeLQA"
+                    
                 />
                 <ContactCard
                     title="Contatos"
                     icon={<FaPhoneAlt />}
                     text="WhatsApp: (11) 9088-8769<br>Telefone: (11) 9088-8769"
+                    link="https://wa.me/5511991407988" 
                 />
 
                 <ContactCard
@@ -28,6 +31,7 @@ const ContactSection = () => {
                     title="Contatos Sociais"
                     icon={<IoMdChatboxes />}
                     text="@clinicaveterinaria.vidaanimal <br> vidaanimal@gmail.com"
+                    link="https://www.instagram.com/fly.vet/"
                 />
             </div>
         </>

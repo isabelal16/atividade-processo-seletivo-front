@@ -3,7 +3,7 @@ import { BsRocketTakeoff } from "react-icons/bs";
 import React from 'react';
 import { Link } from 'react-scroll';
 import { FaRocket } from 'react-icons/fa';
-import Logo from '../assets/logo.png'; // Certifique-se de que o logo esteja no caminho correto
+import Logo from '../assets/logo-clinicavida.webp'; // Certifique-se de que o logo esteja no caminho correto
 import '../styles/footer.scss';
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-content">
                 <div className="footer-partner">
-                    <div className="rocket_text">
+                    <div className="rocket_text" >
                         <BsRocketTakeoff className="footer-icon" />
                         <div className="footer-partner-text">
                             <p className="text1">Parceiro</p>

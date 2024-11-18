@@ -1,6 +1,9 @@
 import React from 'react';
 import '../styles/pages/about.scss'; // Estilos para a seção sobre
-import SobreImage from '../assets/aboutImage.jpg';
+import SobreImage from '../assets/dogblue.jpg';
+import Button from '../components/Buttons/Button';
+import { FaWhatsapp } from "react-icons/fa";
+
 const Sobre = () => {
     return (
         <section id="sobre" className="sobre">
@@ -8,10 +11,14 @@ const Sobre = () => {
                 <div className="content">
                     <h2>Sobre nós</h2>
                     <p>
-                        Somos uma equipe dedicada ao bem-estar e cuidado do seu pet, sempre buscando oferecer o melhor em qualidade e atenção para nossos clientes de quatro patas. Sabemos que cada pet é único e merece um atendimento especial, por isso, nossos serviços são pensados para garantir conforto, segurança e alegria para o seu amigo.
-
-                        Nossa missão é proporcionar uma experiência de cuidado que vá além do básico, sempre com carinho e respeito. Seja no banho e tosa, hospedagem ou transporte, temos uma equipe qualificada e apaixonada pelo que faz, pronta para atender às necessidades do seu pet com o máximo de dedicação.
+                    Fundada em 2018, nossa clínica nasceu com o objetivo inicial de ser um pet shop dedicado aos cuidados essenciais e ao bem-estar dos pets. Em 2020, identificamos uma grande necessidade no mercado por serviços veterinários de qualidade. Foi então que decidimos ampliar nosso foco, migrando para o ramo da saúde animal em geral.
+                    Desde essa transição, temos nos dedicado a evoluir continuamente, contando com os melhores profissionais e uma infraestrutura de ponta, sempre com o compromisso de atender a todos com excelência. Nosso objetivo vai além de oferecer cuidados confiáveis e de qualidade: buscamos também fortalecer o vínculo entre tutores e seus animais, proporcionando um atendimento acolhedor e acessível, porque entendemos o quanto esses companheiros são amados.
+                    Venha fazer parte da nossa história também, acesse o WhatsApp e agende já seu horário. Será um prazer atender você e o seu melhor amigo!
                     </p>
+                    <Button 
+                        link="https://wa.me/5511991407988" 
+                        text={<FaWhatsapp />}
+                    />
                 </div>
                 <div className="image">
                     <img src={SobreImage} alt="about" />
